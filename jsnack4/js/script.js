@@ -7,7 +7,7 @@ while (cognomeUtente.length <=0){
 
 var listaCognomi = ['Pippo', 'Pluto', 'Paperino', 'Topolino'];
 
-var invitato = false
+var invitato = false;
 
 for (var i = 0; i < listaCognomi.length; i++){
    if (cognomeUtente == listaCognomi [i]){
@@ -17,7 +17,7 @@ for (var i = 0; i < listaCognomi.length; i++){
 console.log(invitato);
 
 if (invitato ==true){
-  alert ('Benvenuto')
+  alert ('Benvenuto');
 }
 else{
   alert ('mi spiace, non sei stato invitato');
